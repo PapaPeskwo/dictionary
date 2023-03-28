@@ -1,6 +1,12 @@
+import os
 from PyDictionary import PyDictionary
 
 dictionary = PyDictionary()
+
+filename = 'word_definitions.csv'
+if not os.path.isfile(filename):
+    # Create the file if it does not exist
+    open(filename, 'w').close()
 
 while True:
     word = input("Enter a word (or type 'q' to exit): ")
