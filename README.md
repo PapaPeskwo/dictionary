@@ -17,6 +17,10 @@ And if the issue persists, try:
 ```
 pip install -e git+https://github.com/yeahwhat-mc/goslate#egg=goslate
 ```
+If you had to do all these three steps, you might have to do the first command again:
+```
+pip install pydictionary
+```
 
 ## Future Ideas
 Be able to save to a CSV by name, for example if you want to have a dictionary for the book you're reading.
