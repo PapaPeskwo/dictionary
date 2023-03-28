@@ -21,6 +21,3 @@ If you had to do all these three steps, you might have to do the first command a
 ```
 pip install pydictionary
 ```
-
-## Future Ideas
-Be able to save to a CSV by name, for example if you want to have a dictionary for the book you're reading.
