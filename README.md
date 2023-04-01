@@ -22,13 +22,4 @@ If you had to do all these three steps, you might have to do the first command a
 ```
 pip install pydictionary
 ```
-We also need to install nltk (The Natural Language Toolkit), which is a Python library for working with human language data. It provides easy-to-use interfaces to over 50 corpora and lexical resources such as WordNet, along with a suite of text processing libraries for tasks such as tokenization, stemming, tagging, parsing, and semantic reasoning.
-```
-pip install nltk
-```
 
-## Running the program
-(For Windows) open up a terminal and type:
-```
-py dictionary.py
-```
