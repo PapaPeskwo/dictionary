@@ -30,5 +30,5 @@ pip install nltk
 ## Running the program
 (For Windows) open up a terminal and type:
 ```
-py dictionary.py
+py src/dictionary.py
 ```
