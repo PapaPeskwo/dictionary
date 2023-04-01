@@ -1,0 +1,23 @@
+# top-most EditorConfig file
+root = true
+
+# set indentation style to spaces
+[*]
+indent_style = space
+indent_size = 4
+
+# don't trim trailing whitespace
+[*.py]
+trim_trailing_whitespace = false
+
+# set maximum line length to 79 characters
+[*.py]
+max_line_length = 79
+
+# use LF line endings
+[*.{py,txt}]
+end_of_line = lf
+
+# set file encoding to UTF-8
+[*.{py,txt}]
+charset = utf-8
