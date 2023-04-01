@@ -1,7 +1,4 @@
-import os
-from PyDictionary import PyDictionary
-from difflib import get_close_matches
-import nltk
+from __init__ import *
 
 # Download the words corpus
 nltk.download('words')  
