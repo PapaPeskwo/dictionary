@@ -3,6 +3,7 @@ This is a simple dictionary app designed for convenient use while reading. You c
 
 ## Installation
 
+We need the PyDictionary library, which is a Python wrapper for the WordNet lexical database, which is a large lexical database of English words and their meanings.
 ```
 pip install pydictionary 
 ```
@@ -21,3 +22,4 @@ If you had to do all these three steps, you might have to do the first command a
 ```
 pip install pydictionary
 ```
+

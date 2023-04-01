@@ -1,5 +1,10 @@
 import os
 from PyDictionary import PyDictionary
+from difflib import get_close_matches
+import nltk
+
+# Download the words corpus
+nltk.download('words')  
 
 dictionary = PyDictionary()
 
@@ -22,4 +27,13 @@ while True:
                 file.write(f'{word},{definition}\n')
             print(f'{word}: {definition}\n')
     except (TypeError, KeyError):
-        print(f"No definition found for '{word}'. Please try again.\n")
+        # Get a list of similar words and suggest them to the user
+        words = set(nltk.corpus.words.words())
+        similar_words = get_close_matches(word, words, n=5, cutoff=0.7)
+        if similar_words:
+            print(f"No definition found for '{word}'. Did you mean:")
+            for i, similar_word in enumerate(similar_words):
+                print(f"{i+1}. {similar_word}")
+            print()
+        else:
+            print(f"No definition found for '{word}'. Please try again.\n")
