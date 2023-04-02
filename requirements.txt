@@ -1,3 +1,6 @@
-# pip freeze | grep <package_name> >> requirements.txt
 nltk==3.8.1
 PyDictionary==2.0.1
+tox
+pytest==7.2.0
+pytest-cov==4.0.0
+coverage==6.5.0
