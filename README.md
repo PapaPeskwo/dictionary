@@ -32,3 +32,9 @@ pip install nltk
 ```
 py src/dictionary.py
 ```
+
+## Running the tests
+```
+pip install -r requirements.txt
+tox
+```
